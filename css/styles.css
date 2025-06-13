@@ -1,7 +1,6 @@
 /* header */
 * {
   margin: 0;
-  padding: 0;
   list-style: none;
   text-decoration: none;
 }
@@ -12,11 +11,9 @@ body {
 }
 
 .header {
-  justify-content: space-between;
 }
 
 .header_navigation {
-  justify-content: center;
 }
 
 .logo {
@@ -34,7 +31,6 @@ body {
 }
 
 .header_list {
-  justify-content: center;
 }
 
 .header_item_a {
@@ -53,7 +49,6 @@ body {
   font-style: normal;
 }
 .address_list {
-  justify-content: center;
 }
 
 .address_item_a {
@@ -72,7 +67,6 @@ body {
 /* order-service */
 .order-service {
   background-color: #2e2f42;
-  justify-content: center;
 }
 
 .order-service_heading {
@@ -108,12 +102,9 @@ body {
 }
 
 .qualities_list {
-  justify-content: center;
 }
 
 .qualities_item {
-  justify-content: flex-start;
-  flex-direction: column;
 }
 
 .qualities_item_heading {
@@ -144,10 +135,8 @@ body {
   text-transform: capitalize;
 }
 .our-team_list {
-  justify-content: center;
 }
 .our-team_item {
-  flex-direction: column;
   background: #fff;
 }
 .our-team_item_img {
@@ -170,8 +159,6 @@ body {
 
 /*  Our Portfolio */
 .our-portfolio {
-  justify-content: center;
-  flex-direction: column;
 }
 .our-portfolio_heading {
   font-weight: 700;
@@ -183,14 +170,8 @@ body {
   text-transform: capitalize;
 }
 .our-portfolio_list {
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .our-portfolio_items {
-  justify-content: center;
-  flex-direction: column;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
 }
 .our-portfolio_items_img {
 }
@@ -211,8 +192,6 @@ body {
 /* footer */
 .footer {
   background: #2e2f42;
-  justify-content: start;
-  flex-direction: column;
 }
 
 .footer_logo {
