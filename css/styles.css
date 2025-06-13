@@ -57,6 +57,9 @@ body {
 .header_item_a:focus {
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 .address_list {
   display: flex;
   justify-content: center;
